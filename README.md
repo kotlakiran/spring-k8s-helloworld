@@ -2,6 +2,8 @@
 
 A very simple hello-world example on running a docker container that has a Spring Boot server, inside a Kubernetes cluster.
 
+[![Gradle Package](https://github.com/kotlakiran/spring-k8s-helloworld/actions/workflows/docker-image.yml/badge.svg)](https://github.com/kotlakiran/spring-k8s-helloworld/actions/workflows/docker-image.yml)
+
 ### The Spring Application
 
 The main entry is the [App](https://github.com/MarounMaroun/spring-k8s-helloworld/blob/master/src/main/java/hello/App.java) class, that starts the Spring Boot server.
